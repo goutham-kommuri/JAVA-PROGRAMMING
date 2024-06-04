@@ -1,5 +1,6 @@
+import java.util.Scanner;
 Scanner input = new Scanner(System.in);
-String arr[] = {"Banana", "Apple", "Carrot", "Radish", "Jack"};
+String arr[] = {"Bike", "Apple", "Cake", "Red"};
 int len = arr.length;
 char order = input.next().charAt(0);
 if (order == 'A') {
@@ -26,3 +27,9 @@ else if (order == 'D') {
  }
  System.out.println(Arrays.toString(arr));
 }
+OUTPUT:
+Apple
+ Bike
+ Cake
+ Red
+
