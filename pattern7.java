@@ -1,3 +1,4 @@
+import java.util.Scanner;
 Scanner input=new Scanner(System.in);
 int n=input.nextInt();
 for(int i=1;i<=n;i++)
@@ -14,3 +15,10 @@ for(int i=1;i<=n;i++)
  }
  System.out.println();
 }
+OUTPUT:
+n=5
+ *
+ **
+ ***
+ ****
+ *****
