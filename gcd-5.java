@@ -21,3 +21,21 @@ public class ak
  public static void main(String[] args)
  {
  Scanner input=new Scanner(System.in);
+   int n=input.nextInt();
+ int a[]=new int[n];
+ for(int i=0;i<n;i++)
+ {
+ a[i]=input.nextInt();
+ }
+ System.out.println(findgcd(a,n));
+ int gcd=findgcd(a,n);
+ int mul=1;
+ for(int i=0;i<n;i++)
+ {
+ mul=mul*a[i];
+ }
+ int lcm=mul/gcd;
+ System.out.println(lcm);
+ }
+}
+
