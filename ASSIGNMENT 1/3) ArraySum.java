@@ -10,7 +10,7 @@ public class ArraySum {
         int[] arr = new int[n];
         System.out.println("Enter the elements of the array:");
 
-        // Input elements into the array
+        
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
