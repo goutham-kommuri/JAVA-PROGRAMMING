@@ -7,3 +7,5 @@ while(n!=0)
  rev=rev*10+rem;
  n=n/10;
 }
+System.out.print(rev);
+
