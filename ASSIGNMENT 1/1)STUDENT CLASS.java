@@ -3,7 +3,7 @@ public class Student {
     private int rollNumber;
     private double marks;
 
-    // Setter methods
+   
     public void setName(String name) {
         this.name = name;
     }
@@ -16,7 +16,7 @@ public class Student {
         this.marks = marks;
     }
 
-    // Getter methods
+   
     public String getName() {
         return name;
     }
