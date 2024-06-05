@@ -35,7 +35,7 @@ class Employee extends Person {
 
 public class InheritanceDemo {
     public static void main(String[] args) {
-        Employee employee = new Employee("Alice", 30, 50000.0);
+        Employee employee = new Employee("GOUTHAM", 20, 500000.0);
         employee.displayEmployeeDetails();
     }
 }
